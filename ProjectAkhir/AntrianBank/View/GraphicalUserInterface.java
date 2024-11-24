@@ -32,7 +32,7 @@ public class GraphicalUserInterface {
         leftPanel.setBackground(new Color(51, 153, 255));
         leftPanel.setPreferredSize(new Dimension(400, 600));
 
-        JLabel photoLabel = new JLabel(new ImageIcon("AntrianBankGUI/View/Perbankan.jpg"));
+        JLabel photoLabel = new JLabel(new ImageIcon("AntrianBank/View/Perbankan.jpg"));
         photoLabel.setHorizontalAlignment(JLabel.CENTER);
         leftPanel.add(photoLabel, BorderLayout.CENTER);
 
