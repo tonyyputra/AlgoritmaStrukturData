@@ -1,11 +1,11 @@
-package ProjectAkhir.AntrianBankGUI.View;
+package ProjectAkhir.AntrianBank.View;
 
-import AntrianBankGUI.Controller.AntrianBankController;
+import AntrianBank.Controller.Controller;
 
 import javax.swing.*;
 import java.awt.*;
 
-public class AntrianBankGUI {
+public class GraphicalUserInterface {
     private JFrame frame;
     private JFrame outputFrame;
     private JTextField namaField;
@@ -16,7 +16,7 @@ public class AntrianBankGUI {
     private JTextArea outputArea;
     private AntrianBankController controller;
 
-    public AntrianBankGUI(AntrianBankController controller) {
+    public GraphicalUserInterface(AntrianBankController controller) {
         this.controller = controller;
         initialize();
     }
@@ -154,6 +154,6 @@ public class AntrianBankGUI {
     }
 
     public static void main(String[] args) {
-        new AntrianBankGUI(new AntrianBankController("dataAntrianBank.txt"));
+        new GraphicalUserInterface(new AntrianBankController("dataAntrianBank.txt"));
     }
 }
