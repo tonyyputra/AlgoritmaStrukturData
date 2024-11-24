@@ -1,4 +1,4 @@
-package ProjectAkhir.AntrianBankGUI.Model;
+package ProjectAkhir.AntrianBank.Model;
 
 import java.time.LocalDate;
 
