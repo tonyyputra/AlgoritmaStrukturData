@@ -1,4 +1,4 @@
-package ProjectAkhir.AntrianBankGUI.View;
+package ProjectAkhir.AntrianBank.View;
 
 import javax.swing.*;
 import java.awt.*;
