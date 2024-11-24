@@ -1,21 +1,21 @@
-package ProjectAkhir.AntrianBankGUI.Controller;
+package ProjectAkhir.AntrianBank.Controller;
 
-import AntrianBankGUI.Model.Nasabah;
-import AntrianBankGUI.View.NotificationDialog;
+import AntrianBank.Model.Nasabah;
+import AntrianBank.View.NotificationDialog;
 
 import javax.swing.*;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class AntrianBankController {
+public class Controller {
     private Nasabah[] antrianNasabah;
     private int jumlahNasabah;
     private int nomorAntrianTeller;
     private int nomorAntrianCustomerService;
     private String fileName;
 
-    public AntrianBankController(String fileName) {
-        antrianNasabah = new Nasabah[100]; // Kapasitas maksimal
+    public Controller(String fileName) {
+        antrianNasabah = new Nasabah[100];
         jumlahNasabah = 0;
         nomorAntrianTeller = 1;
         nomorAntrianCustomerService = 1;
